@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "backgroundColor": "#121212",
+    "buttonColor": "#1E1E1E",
+    "buttonHoverColor": "#2A2A2A",
+    "textColor": "#FFFFFF",
+    "highlightColor": "#FF5733",
+    "sound": "beep.wav"
+  },
+  "timers": [
+    { "name": "Fries", "duration": 270, "midTimers": [90, 180] },
+    { "name": "Oreos", "duration": 180, "midTimers": [90] },
+    { "name": "Chicken Tenders", "duration": 340, "midTimers": [180] },
+    { "name": "Onion Rings", "duration": 180 },
+    { "name": "Pickles", "duration": 180 },
+    { "name": "Cheese Sticks", "duration": 180 },
+    { "name": "Test", "duration": 15, "midTimers": [10, 5] }
+  ],
+  "baskets": ["1", "2", "3", "4"]
+}

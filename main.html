@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style id="dynamicStyles"></style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .button-container {
+      margin: 20px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .timer-box {
+      border: 2px solid #ccc;
+      padding: 20px;
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #1e1e1e;
+      border-radius: 10px;
+    }
+    .timer-box strong {
+      flex: 1;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    .timer-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .silence-button {
+      background-color: #d9534f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 1em;
+      border-radius: 5px;
+    }
+    .silence-button:hover {
+      background-color: #c9302c;
+    }
+  </style>
+</head>
+<body>
+<div id="timerButtons" class="button-container"></div>
+
+<hr>
+
+<div id="basketButtons" class="button-container"></div>
+
+<div id="timerContainer"></div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
